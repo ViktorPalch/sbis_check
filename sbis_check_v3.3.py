@@ -15,7 +15,8 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(filename="log.log", level=logging.ERROR,format="%(asctime)s - %(levelname)s - %(name)s - %(message)s")
 logger.error("Starting bot")
 
-bot = Bot(token='5479649704:AAGuvYHgp_DvzVxV6uV8j4RnKwG1nMsa5rw')
+tokens=input(str('Введите токен бота: '))
+bot = Bot(token=tokens)
 dp = Dispatcher(bot=bot, loop=get_event_loop())
 
 async def raed_excel():
