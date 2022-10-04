@@ -77,7 +77,14 @@ async def raed_excel():
                     s16 = datetime.datetime.strptime(str(sheet[row][16].value), '%H:%M:%S')
                     s16 = s16.strftime("%H:%M:%S")
 
+                elif len(str(sheet[row][16].value)) >= 20:
+
+                    s16 = datetime.datetime.strptime((str(sheet[row][16].value))[0] + (str(sheet[row][16].value)[7:]),
+                                                     '%d %H:%M:%S.%f')
+                    s16 = s16.strftime('%d %H:%M:%S.%f')
+
                 s.update({sheet[row][10].value: [s14, s16, 1]})
+
 
             else:
 
@@ -98,10 +105,22 @@ async def raed_excel():
                     d16 = datetime.datetime.strptime(s[sheet[row][10].value][1], "%H:%M:%S.%f")
                     d16 = datetime.timedelta(hours=d16.hour, minutes=d16.minute, seconds=d16.second,
                                              microseconds=d16.microsecond)
-
-                elif len(str(s[sheet[row][10].value][0])) == 7:
+                elif len(str(s[sheet[row][10].value][1])) == 7 or len(str(s[sheet[row][10].value][1])) == 8:
                     d16 = datetime.datetime.strptime(s[sheet[row][10].value][1], "%H:%M:%S")
                     d16 = datetime.timedelta(hours=d16.hour, minutes=d16.minute, seconds=d16.second)
+
+                elif len(str(s[sheet[row][10].value][1])) == 18:
+                    d16 = datetime.datetime.strptime(s[sheet[row][10].value][1], "%d %H:%M:%S.%f")
+                    d16 = datetime.timedelta(days=d16.day, hours=d16.hour, minutes=d16.minute, seconds=d16.second,
+                                             microseconds=d16.microsecond)
+                elif len(str(s[sheet[row][10].value][1])) >= 20:
+                    d16 = datetime.datetime.strptime(
+                        (str(s[sheet[row][10].value][1]))[0] + ' ' + (str(s[sheet[row][10].value][1])[7:]),
+                        '%d %H:%M:%S.%f')
+                    d16 = datetime.timedelta(days=d16.day, hours=d16.hour, minutes=d16.minute, seconds=d16.second,
+                                             microseconds=d16.microsecond)
+                else:
+                    print(f'Ошибка в дате: {(str(s[sheet[row][10].value][1]))}')
 
                 if len(str(sheet[row][14].value)) == 14 or len(str(sheet[row][14].value)) == 15:
                     s14 = datetime.datetime.strptime(str(sheet[row][14].value), "%H:%M:%S.%f")
@@ -120,6 +139,14 @@ async def raed_excel():
                     s16 = datetime.datetime.strptime(str(sheet[row][16].value), "%H:%M:%S")
                     s16 = (datetime.timedelta(hours=s16.hour, minutes=s16.minute, seconds=s16.second))
 
+                elif len(str(sheet[row][16].value)) >= 20:
+                    s16 = datetime.datetime.strptime(
+                        ((str(sheet[row][16].value))[0] + ' ' + (str(sheet[row][16].value))[7:]), '%d %H:%M:%S.%f')
+                    s16 = datetime.timedelta(days=s16.day, hours=s16.hour, minutes=s16.minute, seconds=s16.second,
+                                             microseconds=s16.microsecond)
+                else:
+                    print(f'Ошибка в дате: {(str(sheet[row][16].value))}')
+
                 s1 = d14 + s14
                 s2 = d16 + s16
                 s3 = s[sheet[row][10].value][2] + 1
@@ -128,27 +155,46 @@ async def raed_excel():
 
     for i in s.items():
 
-        if len(str(i[1][0])) >= 14:
+        if len(str(i[1][0])) == 14 or len(str(i[1][0])) == 15:
             sss = datetime.datetime.strptime(i[1][0], "%H:%M:%S.%f")
             sss = datetime.timedelta(hours=sss.hour, minutes=sss.minute, seconds=sss.second,
                                      microseconds=sss.microsecond)
-        elif len(str(i[1][0])) == 7:
+        elif len(str(i[1][0])) == 7 or len(str(i[1][0])) == 7:
             sss = datetime.datetime.strptime(i[1][0], "%H:%M:%S")
             sss = datetime.timedelta(hours=sss.hour, minutes=sss.minute, seconds=sss.second)
-        if len(str(i[1][1])) >= 14:
+
+        elif len(str(i[1][0])) >= 20:
+
+            sss = datetime.datetime.strptime(((str(i[1][0]))[0] + ' ' + (str(i[1][0]))[7:]), '%d %H:%M:%S.%f')
+            sss = datetime.timedelta(days=sss.day, hours=sss.hour, minutes=sss.minute, seconds=sss.second,
+                                     microseconds=sss.microsecond)
+
+        else:
+            print(f'Ошибка в дате: {str(i[1])} sss')
+
+        if len(str(i[1][1])) == 14 or len(str(i[1][1])) == 15:
             ddd = datetime.datetime.strptime(i[1][1], "%H:%M:%S.%f")
             ddd = datetime.timedelta(hours=ddd.hour, minutes=ddd.minute, seconds=ddd.second,
                                      microseconds=ddd.microsecond)
-        elif len(str(i[1][1])) == 7:
+        elif len(str(i[1][1])) == 7 or len(str(i[1][1])) == 8:
             ddd = datetime.datetime.strptime(i[1][1], "%H:%M:%S")
             ddd = datetime.timedelta(hours=ddd.hour, minutes=ddd.minute, seconds=ddd.second)
+
+        elif len(str(i[1][1])) >= 20:
+
+            ddd = datetime.datetime.strptime(((str(i[1][1]))[0] + ' ' + (str(i[1][1]))[7:]), '%d %H:%M:%S.%f')
+            ddd = datetime.timedelta(days=ddd.day, hours=ddd.hour, minutes=ddd.minute, seconds=ddd.second,
+                                     microseconds=ddd.microsecond)
+        else:
+            print(len(str(i[1][1])))
+            print(f'Ошибка в дате: {str(i[1])} ddd')
 
         sss = str(sss / int(i[1][2]))
         ddd = str(ddd / int(i[1][2]))
         sss = datetime.datetime.strptime(sss, '%H:%M:%S.%f')
-        sss = sss.strftime("%M:%S")
+        sss = sss.strftime("%H:%M:%S")
         ddd = datetime.datetime.strptime(ddd, '%H:%M:%S.%f')
-        ddd = ddd.strftime("%M:%S")
+        ddd = ddd.strftime("%H:%M:%S")
         s[i[0]] = [sss, ddd, i[1][2]]
 
     return s
@@ -334,6 +380,9 @@ async def scan_message(message: types.Message):
     destination = os.path.abspath(os.path.curdir)
     await message.document.download(destination)
     await message.answer("Файл загружен")
+    log = open("log_time_user.log", "a")
+    sys.stdout = log
+    print(f'Время: {datetime.datetime.now()} - пользователь: {message.from_user.username}')
 
 
 @dp.message_handler(commands="admin")
@@ -382,6 +431,7 @@ async def num_file(message: types.Message):
 @dp.message_handler(lambda message: message.text == 'Получить лог')
 async def logs(message: types.Message):
     await message.answer_document(open("log.log", "rb"))
+    await message.answer_document(open("log_time_user.log", "rb"))
 
 
 @dp.message_handler(lambda message: message.text == 'Назад')
