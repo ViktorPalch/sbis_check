@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(filename="log.log", level=logging.ERROR,format="%(asctime)s - %(levelname)s - %(name)s - %(message)s")
 logger.error("Starting bot")
 
-tokens=input(str('Введите токен бота: '))
+tokens = input(str('Введите токен бота: '))
 bot = Bot(token=tokens)
 dp = Dispatcher(bot=bot, loop=get_event_loop())
 

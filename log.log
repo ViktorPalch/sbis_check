@@ -1,0 +1,434 @@
+2022-09-05 20:50:06,357 - ERROR - __main__ - Starting bot
+2022-09-05 20:50:11,926 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-05 20:50:22,077 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-05 20:50:32,213 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-05 20:50:42,327 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-05 20:50:52,454 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-05 20:51:02,585 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-05 20:51:43,629 - ERROR - __main__ - Starting bot
+2022-09-15 21:08:34,160 - ERROR - __main__ - Starting bot
+2022-09-15 21:41:36,300 - ERROR - __main__ - Starting bot
+2022-09-15 21:42:14,077 - ERROR - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("module 'datetime' has no attribute 'strptime'")>
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\79201\PycharmProjects\sbis_check\123.py", line 252, in stoptopupcall
+    dt = datetime.strptime(p_key, '%H:%M:%S.%f')
+AttributeError: module 'datetime' has no attribute 'strptime'
+2022-09-15 21:42:25,977 - ERROR - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("module 'datetime' has no attribute 'strptime'")>
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\79201\PycharmProjects\sbis_check\123.py", line 252, in stoptopupcall
+    dt = datetime.strptime(p_key, '%H:%M:%S.%f')
+AttributeError: module 'datetime' has no attribute 'strptime'
+2022-09-15 21:42:27,874 - ERROR - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("module 'datetime' has no attribute 'strptime'")>
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\79201\PycharmProjects\sbis_check\123.py", line 252, in stoptopupcall
+    dt = datetime.strptime(p_key, '%H:%M:%S.%f')
+AttributeError: module 'datetime' has no attribute 'strptime'
+2022-09-15 21:52:01,754 - ERROR - __main__ - Starting bot
+2022-09-15 21:56:58,290 - ERROR - __main__ - Starting bot
+2022-09-15 21:57:05,156 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-15 21:57:14,258 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-15 21:57:24,379 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-15 21:57:34,504 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-15 21:57:44,637 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-15 21:57:54,773 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-15 21:58:04,912 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-15 21:58:14,136 - ERROR - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=ValueError("time data '0:05:25' does not match format '%H:%M:%S.%f'")>
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\79201\PycharmProjects\sbis_check\123.py", line 186, in General_statistics
+    nunber = await raed_excel()
+  File "C:\Users\79201\PycharmProjects\sbis_check\123.py", line 55, in raed_excel
+    s16 = datetime.datetime.strptime(str(sheet[row][16].value), '%H:%M:%S.%f')
+  File "C:\Users\79201\AppData\Local\Programs\Python\Python39\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\79201\AppData\Local\Programs\Python\Python39\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '0:05:25' does not match format '%H:%M:%S.%f'
+2022-09-15 21:58:14,335 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-15 21:58:24,487 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-15 21:58:34,653 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-17 19:45:20,613 - ERROR - __main__ - Starting bot
+2022-09-17 19:45:47,233 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-17 19:45:56,914 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-17 19:46:07,074 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-17 19:46:15,233 - ERROR - aiogram.dispatcher.dispatcher - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-17 19:46:34,604 - ERROR - __main__ - Starting bot
+2022-09-17 19:58:47,867 - ERROR - __main__ - Starting bot
+2022-09-17 20:06:33,593 - ERROR - __main__ - Starting bot
+2022-09-17 20:07:22,203 - ERROR - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=PermissionError(13, 'Permission denied')>
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\79201\PycharmProjects\sbis_check\sbis_check_v3.7.py", line 316, in scan_message
+    await message.document.download(destination_file=destination)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\types\mixins.py", line 54, in download
+    return await self.bot.download_file(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 283, in download_file
+    dest = destination if isinstance(destination, io.IOBase) else open(destination, 'wb')
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\79201\\PycharmProjects\\sbis_check'
+2022-09-23 00:24:09,185 - ERROR - __main__ - Starting bot
+2022-10-04 20:40:51,693 - ERROR - __main__ - Starting bot
+2022-10-04 20:49:27,366 - ERROR - __main__ - Starting bot
+2022-10-04 20:53:33,180 - ERROR - __main__ - Starting bot
+2022-10-04 20:54:24,660 - ERROR - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-31' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest('File must be non-empty')>
+Traceback (most recent call last):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\79201\PycharmProjects\sbis_check\sbis_check_v3.11.py", line 434, in logs
+    await message.answer_document(open("log_time_user.log", "rb"))
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\types\message.py", line 750, in answer_document
+    return await self.bot.send_document(
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\bot.py", line 725, in send_document
+    result = await self.request(api.Methods.SEND_DOCUMENT, payload, files)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\79201\PycharmProjects\sbis_check\venv\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: File must be non-empty
+2022-10-05 10:42:28,732 - ERROR - __main__ - Starting bot
+2022-10-05 10:46:35,283 - ERROR - __main__ - Starting bot
